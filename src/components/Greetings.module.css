@@ -17,8 +17,10 @@
   font-size: clamp(1.25rem, 0.528rem + 3.396vw, 3.5rem);
   text-transform: uppercase;
   margin-bottom: 20px;
+  user-select: none
 }
 
 .greetingsInner p {
   font-size: 30px;
+  user-select: none
 }
