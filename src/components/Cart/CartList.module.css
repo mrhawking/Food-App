@@ -1,0 +1,21 @@
+.listWrapper {
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--main-light-100);
+  margin-bottom: 30px;
+}
+
+.cartList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.cartTotal {
+  font-size: 26px;
+  text-align: right;
+}

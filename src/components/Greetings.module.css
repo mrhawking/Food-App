@@ -1,0 +1,24 @@
+.greetings {
+  position: relative;
+  z-index: 100;
+  padding-top: 15vh
+}
+
+.greetingsInner {
+  width: clamp(18.75rem, 10.731rem + 37.736vw, 43.75rem);
+  margin: 0 auto;
+  padding: 50px 50px;
+  background-color: var(--main-dark-90);
+  text-align: center;
+  border-radius: 20px;
+}
+
+.greetingsInner h1 {
+  font-size: clamp(1.25rem, 0.528rem + 3.396vw, 3.5rem);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.greetingsInner p {
+  font-size: 30px;
+}

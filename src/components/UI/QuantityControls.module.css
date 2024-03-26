@@ -1,0 +1,34 @@
+.quantityControls {
+  display: flex;
+  border: 1px solid var(--main-light-100);
+  border-radius: 10px;
+  width: 100px;
+}
+
+.quantityControls button {
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.quantityControls button:hover,
+.quantityControls button:focus-visible {
+  background-color: var(--main-light-30);
+}
+
+.quantityControls button.disabled {
+  cursor: default;
+}
+
+.quantityControls button.disabled:hover {
+  background-color: transparent;
+}  
+
+.quantityControls input {
+  background-color: transparent;
+  width: 50px;
+  padding: 3px 5px;
+  text-align: center;
+}

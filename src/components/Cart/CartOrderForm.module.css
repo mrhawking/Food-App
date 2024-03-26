@@ -1,0 +1,64 @@
+.order {
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--main-light-100);
+  margin-bottom: 30px;
+}
+
+.orderForm {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.inputsWrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inputWrapper {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 15px;
+
+@media (max-width: 450px) {
+  flex-direction: column;
+}
+}
+
+.inputWrapper input{
+  background-color: transparent;
+  border: 1px solid var(--main-light-100);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.orderPayment {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.orderPayment legend{
+  margin-bottom: 10px;
+}
+
+.radioWrapper input{
+  margin-right: 10px;
+}
+
+.orderFormButtun {
+
+}

@@ -1,0 +1,67 @@
+.fullHigh {
+  position: relative;
+  height: 100%;
+  max-width: 1360px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.mainBg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 20px;
+  left: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  height: 100%;
+  padding: 20px 0;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.mainBgItem {
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.mainBgItem:first-child {
+  grid-column: span 3;
+  grid-row: span 1;
+  background-image: url("/public/images/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (max-width: 768px) {
+    grid-column: span 2;
+  }
+}
+ 
+.mainBgItem:nth-child(2),
+.mainBgItem:nth-child(3),
+.mainBgItem:nth-child(4) {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainBgItem:nth-child(2) {
+  background-image: url("/public/images/bg-2.png");
+}
+.mainBgItem:nth-child(3) {
+  background-image: url("/public/images/bg-3.png");
+}
+.mainBgItem:nth-child(4) {
+  background-image: url("/public/images/bg-4.png");
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.mainFooter {
+  padding: 20px 0;
+  background-color: var(--main-light-10);
+}
+
+.mainFooterInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: clamp(1rem, 0.759rem + 1.132vw, 1.75rem);
+
+  @media (max-width: 580px) {
+    justify-content: center;
+  }
+}
+
+.mainFooterInner a {
+  color: var(--main-light-100);
+}

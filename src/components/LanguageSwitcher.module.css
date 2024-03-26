@@ -1,0 +1,13 @@
+.langSwitcher {
+  display: flex;
+  gap: 10px;
+}
+
+.langSwitcher button{
+  background-color: transparent;
+}
+
+.langSwitcher button:hover,
+.langSwitcher button:focus-visible {
+  text-decoration: underline;
+}

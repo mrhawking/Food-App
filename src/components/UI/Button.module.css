@@ -1,0 +1,29 @@
+.button {
+  padding: clamp(0.5rem, 0.36rem + 0.66vw, 0.938rem) clamp(0.625rem, 0.224rem + 1.887vw, 1.875rem);
+  background-color: var(--main-light-100);
+  color: var(--main-dark-100);
+  font-size: clamp(1rem, 0.84rem + 0.755vw, 1.5rem);
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid var(--main-light-100);
+  text-align: center;
+}
+
+.button:hover {
+  background-color: var(--hover);
+}
+
+.button:focus-visible {
+  background-color: var(--hover);
+}
+
+.button.active {
+  color: var(--main-light-100);
+  background-color: var(--main-dark-100);
+}
+
+.button .svg {
+  width: 10px;
+  height: 10px;
+  font-size: 30px;
+}

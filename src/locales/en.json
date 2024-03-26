@@ -1,0 +1,53 @@
+{
+  "header": {
+    "signup": "Sign Up",
+    "login": "Log In",
+    "menu": "Menu",
+    "cart": "Cart",
+    "orders": "My orders",
+    "logout": "Log out"
+  },
+  "greet": {
+    "title": "Food Delivery Food-App",
+    "text": "Sign up or log in to continue",
+    "text-auth": "Welcome!"
+  },
+  "auth-form": {
+    "login": "Login",
+    "login-action": "Log in",
+    "email": "Email",
+    "email-label": "Enter your email",
+    "pass-label": "Enter your password",
+    "password": "Password",
+    "reg": "Registration",
+    "create": "Create"
+  },
+  "menu": {
+    "title": "Menu",
+    "add": "Add",
+    "cart": "In cart"
+  },
+  "orders": {
+    "title": "Orders",
+    "empty": "The list of orders is empty",
+    "order": "Order",
+    "part": "pcs"
+  },
+  "cart": {
+    "empty": "Your cart is empty",
+    "number": "Order number",
+    "title": "Cart",
+    "pay": "To pay",
+    "address": "Delivery address",
+    "phone": "Contact phone",
+    "payment": "Select payment method",
+    "bycard": "Payment by card to the courier",
+    "bycash": "Cash payment",
+    "order": "Order"
+  },
+  "footer": {
+    "address": "St. Petersburg, Prospekt Prosveshcheniya, 88"
+  },
+  "load": "Loading",
+  "del": "Delete"
+}
